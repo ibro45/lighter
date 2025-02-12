@@ -1,9 +1,0 @@
-.component1-container {
-  display: flex;
-  position: relative;
-}
-.component1-icon {
-  fill: var(--dl-color-gray-500);
-  width: var(--dl-size-size-small);
-  height: var(--dl-size-size-small);
-}

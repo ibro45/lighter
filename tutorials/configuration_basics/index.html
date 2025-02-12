@@ -9,23 +9,25 @@
       
       
       
-        <link rel="prev" href="../containers/">
+        <link rel="prev" href="../..">
       
       
+        <link rel="next" href="../image_classification/">
       
-      <link rel="icon" href="../../../../assets/images/lighter_favicon.png">
+      
+      <link rel="icon" href="../../assets/images/lighter_favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.3">
     
     
       
-        <title>enums - Lighter</title>
+        <title>Configuration Basics - Lighter</title>
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.d7758b05.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.d7758b05.min.css">
       
         
-        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -44,11 +46,11 @@
       
     
     
-      <link rel="stylesheet" href="../../../../assets/_mkdocstrings.css">
+      <link rel="stylesheet" href="../../assets/_mkdocstrings.css">
     
-      <link rel="stylesheet" href="../../../../assets/extra.css">
+      <link rel="stylesheet" href="../../assets/extra.css">
     
-    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#lighter.utils.types.enums" class="md-skip">
+        <a href="#core-sections-trainer-and-system" class="md-skip">
           Skip to content
         </a>
       
@@ -88,9 +90,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../../.." title="Lighter" class="md-header__button md-logo" aria-label="Lighter" data-md-component="logo">
+    <a href="../.." title="Lighter" class="md-header__button md-logo" aria-label="Lighter" data-md-component="logo">
       
-  <img src="../../../../assets/images/lighter_logo.png" alt="logo">
+  <img src="../../assets/images/lighter_logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -107,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              enums
+              Configuration Basics
             
           </span>
         </div>
@@ -224,7 +226,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../.." class="md-tabs__link">
+      <a href="../.." class="md-tabs__link">
         
   
     
@@ -239,11 +241,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../../../tutorials/configuration_basics/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
           
   
   Tutorials
@@ -261,7 +265,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../../how-to/configure/" class="md-tabs__link">
+        <a href="../../how-to/configure/" class="md-tabs__link">
           
   
   How-To
@@ -279,7 +283,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../../design/overview/" class="md-tabs__link">
+        <a href="../../design/overview/" class="md-tabs__link">
           
   
   Design
@@ -293,13 +297,11 @@
         
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../../../" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../reference/" class="md-tabs__link">
           
   
   API Reference
@@ -332,9 +334,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../../.." title="Lighter" class="md-nav__button md-logo" aria-label="Lighter" data-md-component="logo">
+    <a href="../.." title="Lighter" class="md-nav__button md-logo" aria-label="Lighter" data-md-component="logo">
       
-  <img src="../../../../assets/images/lighter_logo.png" alt="logo">
+  <img src="../../assets/images/lighter_logo.png" alt="logo">
 
     </a>
     Lighter
@@ -361,7 +363,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../.." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -379,23 +381,28 @@
       
   
   
+    
   
   
+  
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -407,7 +414,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Tutorials
@@ -418,10 +425,29 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../../../tutorials/configuration_basics/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Configuration Basics
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -431,6 +457,84 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#core-sections-trainer-and-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      Core Sections: trainer and system
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-config-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Config Concepts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Key Config Concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_target_-saying-what-to-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      _target_: Saying "What to Use"
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#and-referencing-connecting-things-together" class="md-nav__link">
+    <span class="md-ellipsis">
+      @ and % Referencing: Connecting Things Together
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#command-line-overrides" class="md-nav__link">
+    <span class="md-ellipsis">
+      Command Line Overrides
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thats-the-basics" class="md-nav__link">
+    <span class="md-ellipsis">
+      That's the Basics!
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -443,7 +547,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tutorials/image_classification/" class="md-nav__link">
+      <a href="../image_classification/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -511,7 +615,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../how-to/configure/" class="md-nav__link">
+      <a href="../../how-to/configure/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -533,7 +637,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../how-to/run/" class="md-nav__link">
+      <a href="../../how-to/run/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -555,7 +659,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../how-to/project_module/" class="md-nav__link">
+      <a href="../../how-to/project_module/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -577,7 +681,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../how-to/adapters/" class="md-nav__link">
+      <a href="../../how-to/adapters/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -599,7 +703,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../how-to/metrics/" class="md-nav__link">
+      <a href="../../how-to/metrics/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -621,7 +725,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../how-to/writers/" class="md-nav__link">
+      <a href="../../how-to/writers/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -643,7 +747,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../how-to/freezers/" class="md-nav__link">
+      <a href="../../how-to/freezers/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -665,7 +769,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../how-to/inferers/" class="md-nav__link">
+      <a href="../../how-to/inferers/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -733,7 +837,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../design/overview/" class="md-nav__link">
+      <a href="../../design/overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -759,28 +863,23 @@
       
   
   
-    
   
   
-  
     
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -792,7 +891,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             API Reference
@@ -803,8 +902,6 @@
                 
   
   
-    
-  
   
   
     
@@ -814,16 +911,16 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../" class="md-nav__link ">
+            <a href="../../reference/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -841,7 +938,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_1">
             <span class="md-nav__icon md-icon"></span>
             lighter
@@ -855,7 +952,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../adapters/" class="md-nav__link">
+      <a href="../../reference/adapters/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -892,7 +989,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../callbacks/" class="md-nav__link ">
+            <a href="../../reference/callbacks/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -924,7 +1021,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../callbacks/freezer/" class="md-nav__link">
+      <a href="../../reference/callbacks/freezer/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -946,7 +1043,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../callbacks/utils/" class="md-nav__link">
+      <a href="../../reference/callbacks/utils/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -983,7 +1080,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../callbacks/writer/" class="md-nav__link ">
+            <a href="../../reference/callbacks/writer/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1015,7 +1112,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../callbacks/writer/base/" class="md-nav__link">
+      <a href="../../reference/callbacks/writer/base/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1037,7 +1134,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../callbacks/writer/file/" class="md-nav__link">
+      <a href="../../reference/callbacks/writer/file/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1059,7 +1156,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../callbacks/writer/table/" class="md-nav__link">
+      <a href="../../reference/callbacks/writer/table/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1112,7 +1209,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../engine/" class="md-nav__link ">
+            <a href="../../reference/engine/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1144,7 +1241,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../engine/config/" class="md-nav__link">
+      <a href="../../reference/engine/config/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1166,7 +1263,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../engine/resolver/" class="md-nav__link">
+      <a href="../../reference/engine/resolver/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1188,7 +1285,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../engine/runner/" class="md-nav__link">
+      <a href="../../reference/engine/runner/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1210,7 +1307,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../engine/schema/" class="md-nav__link">
+      <a href="../../reference/engine/schema/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1240,7 +1337,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../system/" class="md-nav__link">
+      <a href="../../reference/system/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1259,8 +1356,6 @@
                 
   
   
-    
-  
   
   
     
@@ -1270,16 +1365,16 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1_5" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../" class="md-nav__link ">
+            <a href="../../reference/utils/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1297,7 +1392,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_1_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_1_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_1_5">
             <span class="md-nav__icon md-icon"></span>
             utils
@@ -1311,7 +1406,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../data/" class="md-nav__link">
+      <a href="../../reference/utils/data/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1333,7 +1428,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../dynamic_imports/" class="md-nav__link">
+      <a href="../../reference/utils/dynamic_imports/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1355,7 +1450,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../logging/" class="md-nav__link">
+      <a href="../../reference/utils/logging/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1377,7 +1472,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../misc/" class="md-nav__link">
+      <a href="../../reference/utils/misc/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1399,7 +1494,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../model/" class="md-nav__link">
+      <a href="../../reference/utils/model/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1418,8 +1513,6 @@
                 
   
   
-    
-  
   
   
     
@@ -1429,16 +1522,16 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1_5_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1_5_6" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../reference/utils/types/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1456,7 +1549,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_5_1_5_6_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_5_1_5_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_1_5_6">
             <span class="md-nav__icon md-icon"></span>
             types
@@ -1470,7 +1563,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../containers/" class="md-nav__link">
+      <a href="../../reference/utils/types/containers/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1489,29 +1582,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    enums
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../reference/utils/types/enums/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1521,42 +1595,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#lighter.utils.types.enums" class="md-nav__link">
-    <span class="md-ellipsis">
-      enums
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lighter.utils.types.enums.StrEnum" class="md-nav__link">
-    <span class="md-ellipsis">
-      StrEnum
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1618,18 +1656,60 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#lighter.utils.types.enums" class="md-nav__link">
+  <a href="#core-sections-trainer-and-system" class="md-nav__link">
     <span class="md-ellipsis">
-      enums
+      Core Sections: trainer and system
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#lighter.utils.types.enums.StrEnum" class="md-nav__link">
+  <a href="#key-config-concepts" class="md-nav__link">
     <span class="md-ellipsis">
-      StrEnum
+      Key Config Concepts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Key Config Concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_target_-saying-what-to-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      _target_: Saying "What to Use"
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#and-referencing-connecting-things-together" class="md-nav__link">
+    <span class="md-ellipsis">
+      @ and % Referencing: Connecting Things Together
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#command-line-overrides" class="md-nav__link">
+    <span class="md-ellipsis">
+      Command Line Overrides
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thats-the-basics" class="md-nav__link">
+    <span class="md-ellipsis">
+      That's the Basics!
     </span>
   </a>
   
@@ -1654,102 +1734,95 @@
   
 
 
-  <h1>enums</h1>
+  <h1>Configuration Basics</h1>
 
-<div class="doc doc-object doc-module">
-
-
-
-<a id="lighter.utils.types.enums"></a>
-    <div class="doc doc-contents first">
-
-
-
-
-
-
-
-
-  <div class="doc doc-children">
-
-
-
-
-
-
-
-
-<div class="doc doc-object doc-class">
-
-
-
-<h2 id="lighter.utils.types.enums.StrEnum" class="doc doc-heading">
-            <code>StrEnum</code>
-
-
-</h2>
-
-
-    <div class="doc doc-contents ">
-            <p class="doc doc-class-bases">
-              Bases: <code>str</code>, <code><span title="enum.Enum">Enum</span></code></p>
-
-
-        <p>Enum class that inherits from str. This allows for the enum values to be accessed as strings.</p>
-
-
-
-
-
-
-              <details class="quote">
-                <summary>Source code in <code>lighter/utils/types/enums.py</code></summary>
-                <div class="language-python highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-4"> 4</a></span>
-<span class="normal"><a href="#__codelineno-0-5"> 5</a></span>
-<span class="normal"><a href="#__codelineno-0-6"> 6</a></span>
-<span class="normal"><a href="#__codelineno-0-7"> 7</a></span>
-<span class="normal"><a href="#__codelineno-0-8"> 8</a></span>
-<span class="normal"><a href="#__codelineno-0-9"> 9</a></span>
-<span class="normal"><a href="#__codelineno-0-10">10</a></span>
-<span class="normal"><a href="#__codelineno-0-11">11</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="k">class</span><span class="w"> </span><span class="nc">StrEnum</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">Enum</span><span class="p">):</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="sd">    Enum class that inherits from str. This allows for the enum values to be accessed as strings.</span>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="sd">    &quot;&quot;&quot;</span>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8"></a>
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9"></a>    <span class="c1"># Remove this class when Python 3.10 support is dropped, as Python &gt;=3.11 has StrEnum built-in.</span>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10"></a>    <span class="k">def</span><span class="w"> </span><span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11"></a>        <span class="k">return</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
-</span></code></pre></div></td></tr></table></div>
-              </details>
-
-
-
-  <div class="doc doc-children">
-
-
-
-
-
-
-
-
-
-
-
-  </div>
-
-    </div>
-
-</div>
-
-
-
-
-  </div>
-
-    </div>
-
-</div>
+<p>Lighter uses simple <strong>YAML config files</strong> to define your experiments. Think of a config as a recipe for your experiments, telling Lighter what to train, how to train it, and with what data.  This keeps your experiment setup clean and easy to understand.</p>
+<p>Every Lighter config needs <strong>two main parts</strong>: <code>trainer</code> and <code>system</code>.</p>
+<h2 id="core-sections-trainer-and-system">Core Sections: <code>trainer</code> and <code>system</code></h2>
+<ul>
+<li>
+<p><strong><code>trainer</code></strong>: This section is all about <a href="https://lightning.ai/docs/pytorch/stable/common/trainer.html"><code>pytorch_lightning.Trainer</code></a>. You configure <em>how</em> your model will be trained here, like how many epochs to run.</p>
+</li>
+<li>
+<p><strong><code>system</code></strong>: This is where you define <em>what</em> you are training. Using <a href="../../reference/system/#lighter.system.System"><code>lighter.System</code></a>, you specify the key ingredients of your experiment:</p>
+<ul>
+<li><strong><code>model</code></strong>: Your neural network itself (e.g., ResNet, Linear layers).</li>
+<li><strong><code>criterion</code></strong>: The loss function (e.g., CrossEntropyLoss).</li>
+<li><strong><code>optimizer</code></strong>: How the model learns (e.g., Adam).</li>
+<li><strong><code>dataloaders</code></strong>: How your data is loaded for training and validation.</li>
+</ul>
+</li>
+</ul>
+<p>Let's look at a super simple example:</p>
+<div class="language-yaml highlight"><span class="filename">config.yaml</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nt">trainer</span><span class="p">:</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="nt">_target_</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pytorch_lightning.Trainer</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nt">max_epochs</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">5</span><span class="w">  </span><span class="c1"># Train for 5 epochs</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="nt">system</span><span class="p">:</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="nt">_target_</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">lighter.System</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">    </span><span class="nt">model</span><span class="p">:</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">        </span><span class="nt">_target_</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">torch.nn.Linear</span><span class="w">  </span><span class="c1"># A simple linear model</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">        </span><span class="nt">in_features</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">784</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">        </span><span class="nt">out_features</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">10</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">    </span><span class="nt">criterion</span><span class="p">:</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">        </span><span class="nt">_target_</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">torch.nn.CrossEntropyLoss</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">    </span><span class="nt">optimizer</span><span class="p">:</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">        </span><span class="nt">_target_</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">torch.optim.Adam</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">        </span><span class="nt">params</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;$@system#model.parameters()&quot;</span><span class="w"> </span><span class="c1"># Link to model&#39;s learnable parameters</span>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="w">        </span><span class="nt">lr</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0.001</span>
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="w">    </span><span class="nt">dataloaders</span><span class="p">:</span>
+</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="w">        </span><span class="nt">train</span><span class="p">:</span>
+</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="w">            </span><span class="nt">_target_</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">torch.utils.data.DataLoader</span>
+</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="w">            </span><span class="nt">dataset</span><span class="p">:</span>
+</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="w">                </span><span class="nt">_target_</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">...</span><span class="w"> </span><span class="c1"># (Dataset definition will come later in tutorials)</span>
+</span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="w">            </span><span class="nt">batch_size</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">64</span>
+</span></code></pre></div>
+<h2 id="key-config-concepts">Key Config Concepts</h2>
+<h3 id="_target_-saying-what-to-use"><code>_target_</code>:  Saying "What to Use"</h3>
+<p>The special key <code>_target_</code> is how you tell Lighter <em>what</em> Python class or function to use.  For example:</p>
+<div class="language-yaml highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nt">system</span><span class="p">:</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="nt">_target_</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">lighter.System</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="nt">model</span><span class="p">:</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="hll"><span class="w">        </span><span class="nt">_target_</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">torch.nn.Linear</span><span class="w">  </span><span class="c1"># Use the Linear layer from torch.nn</span>
+</span></span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">        </span><span class="nt">in_features</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">784</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">        </span><span class="nt">out_features</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">10</span>
+</span></code></pre></div>
+<p><code>_target_: torch.nn.Linear</code> means "use the <code>Linear</code> class from the <code>torch.nn</code> module".  Any other settings under <code>model</code> (like <code>in_features</code> and <code>out_features</code>) become the <em>arguments</em> used when creating this <code>Linear</code> layer.</p>
+<h3 id="and-referencing-connecting-things-together"><code>@</code> and <code>%</code> Referencing: Connecting Things Together</h3>
+<p>Sometimes you need to link parts of your config together. We use <code>@</code> or <code>%</code> for this. The main difference is that <code>@</code> references the <em>instance</em> of an object, while <code>%</code> references the <em>definition</em> of an object. We'll dive deeper into the difference between the two at a later stage. For the moment, we will only use <code>@</code>.</p>
+<p>A common example is telling the optimizer <em>which parameters</em> to update – these are the parameters of your <code>model</code>:</p>
+<div class="language-yaml highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nt">system</span><span class="p">:</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="c1"># ... model definition ...</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="nt">optimizer</span><span class="p">:</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">        </span><span class="nt">_target_</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">torch.optim.Adam</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="hll"><span class="w">        </span><span class="nt">params</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;$@system#model.parameters()&quot;</span>
+</span></span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">        </span><span class="nt">lr</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0.001</span>
+</span></code></pre></div>
+<p><code>"@system#model.parameters()"</code> means:</p>
+<ol>
+<li><code>@system#model</code>:  "Go to the <code>system</code> section and find the <code>model</code> we defined."</li>
+<li><code>.parameters()</code>: "Then, get the <code>parameters()</code> method of that model."</li>
+<li><code>$</code>: "Evaluate this as a Python expression."</li>
+</ol>
+<p>So, <code>params: "$@system#model.parameters()"</code> nicely links the <code>Adam</code> optimizer to the learnable weights of your <code>Linear</code> model.</p>
+<p>In Python, this is equivalent to:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">model</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">in_features</span><span class="o">=</span><span class="mi">784</span><span class="p">,</span> <span class="n">out_features</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">optimizer</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">optim</span><span class="o">.</span><span class="n">Adam</span><span class="p">(</span><span class="n">model</span><span class="o">.</span><span class="n">parameters</span><span class="p">(),</span> <span class="n">lr</span><span class="o">=</span><span class="mf">0.001</span><span class="p">)</span>
+</span></code></pre></div>
+<h3 id="command-line-overrides">Command Line Overrides</h3>
+<p>You can easily change settings in your config directly from the command line when you run your experiment. For instance, to train for 10 epochs instead of 5 (defined in <code>config.yaml</code>):</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>lighter<span class="w"> </span>fit<span class="w"> </span>config.yaml<span class="w"> </span>--trainer#max_epochs<span class="o">=</span><span class="m">10</span>
+</span></code></pre></div>
+<p>This is super handy for quick experiments!</p>
+<h2 id="thats-the-basics">That's the Basics!</h2>
+<p>For these tutorials, you'll mainly use <code>trainer</code> and <code>system</code> sections, <code>_target_</code> to define components, and <code>@</code>. <strong>For thorough explanation of the config system, please refer to <a href="../../how-to/configure/">Configure</a> How-To guide</strong>.</p>
+<p>In the next tutorial, we'll use these config basics to build an <a href="../image_classification/">image classification</a> experiment!</p>
 
 
 
@@ -1802,10 +1875,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../../..", "features": ["content.code.copy", "content.code.select", "content.code.annotate", "header.autohide", "content.tooltips", "footnotes", "navigation.tabs", "navigation.top"], "search": "../../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.code.select", "content.code.annotate", "header.autohide", "content.tooltips", "footnotes", "navigation.tabs", "navigation.top"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../../assets/javascripts/bundle.f1b6f286.min.js"></script>
+      <script src="../../assets/javascripts/bundle.f1b6f286.min.js"></script>
       
     
   </body>
