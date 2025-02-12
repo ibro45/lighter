@@ -1,92 +1,29 @@
 [data-md-color-scheme="default"] {
-    --md-primary-fg-color:          #459AA3;
-    --md-accent-fg-color:           #459AA3;
-    --md-typeset-a-color:           #459AA3;
-    color:                          #4b585a;
-    /* Code block colors */
-    --md-code-fg-color:             #657b83;
-    --md-code-bg-color:             #f2f6f6;
-    --md-code-hl-color:             #eee8d5;
-    --md-code-hl-number-color:      #dc322f;
-    --md-code-hl-special-color:     #cb4b16;
-    --md-code-hl-function-color:    #268bd2;
-    --md-code-hl-constant-color:    #6c71c4;
-    --md-code-hl-keyword-color:     #859900;
-    --md-code-hl-string-color:      #2aa198;
-    --md-code-hl-name-color:        #b58900;
-    --md-code-hl-operator-color:    #657b83;
-    --md-code-hl-punctuation-color: #657b83;
-    --md-code-hl-comment-color:     #93a1a1;
-    --md-code-hl-generic-color:     #657b83;
-    --md-code-hl-variable-color:    #cb4b16;
-}
+    --md-primary-fg-color:   #459AA3;
+    --md-accent-fg-color:    #459AA3;
+    color:                   #14181e;
+  }
 
 [data-md-color-scheme="slate"] {
-    --md-primary-fg-color:          #459AA3;
-    --md-accent-fg-color:           #459AA3;
-    --md-default-bg-color:          #14181e;
-    --md-typeset-a-color:           #459AA3;
-    color:                          #ced6dd;
-    /* Code block colors */
-    --md-code-fg-color:             #d4d4d4;
-    --md-code-bg-color:             #28303d;
-    --md-code-hl-color:             #264f78;
-    --md-code-hl-number-color:      #FFB86C;
-    --md-code-hl-special-color:     #C678DD;
-    --md-code-hl-function-color:    #61AFEF;
-    --md-code-hl-constant-color:    #E06C75;
-    --md-code-hl-keyword-color:     #459AA3;
-    --md-code-hl-string-color:      #98C379;
-    --md-code-hl-name-color:        #D19A66;
-    --md-code-hl-operator-color:    #56B6C2;
-    --md-code-hl-punctuation-color: #d4d4d4;
-    --md-code-hl-comment-color:     #5C6370;
-    --md-code-hl-generic-color:     #d4d4d4;
-    --md-code-hl-variable-color:    #E5C07B;
+    --md-primary-fg-color:   #459AA3;
+    --md-accent-fg-color:    #459AA3;
+    --md-default-bg-color:   #14181e;
 }
-
-.md-main {
+[data-md-color-scheme="slate"] .md-nav {
     --md-typeset-a-color: #459AA3;
 }
 
-h1 {
-    color: #459AA3;
-}
-
-.md-nav__link:hover,
-a:hover {
-    color: #5cb7c2;
-}
-
-md-tabs__link:hover {
-    color: #fff;
-}
-
-
-[data-md-color-scheme="slate"] .md-annotation__index::before {
-    background-color: #28303d;
-}
-
-
-.md-admonition {
-    background-color: #459AA3;
-}
-
-.md-typeset .admonition.note,
-.md-typeset details.note {
-    border-color: #459AA3;
-}
-
-.md-typeset .note>.admonition-title:before, .md-typeset .note>summary:before {
-    background-color: #459AA3;
-}
-
-.md-typeset .note > .admonition-title,
-.md-typeset .note > summary {
-    background-color: #459aa33d
-}
-
-.highlight .hll {
-    background-color: rgba(69, 154, 163, 0.1);
-    box-shadow: 2px 0 0 0 rgba(69, 154, 163, 1) inset;
+@media only screen and (min-width: 75.25em) {
+  .md-main__inner {
+    max-width: 1000em;
+  }
+  .md-sidebar--primary {
+    left: 0;
+  }
+  .md-sidebar--secondary {
+    right: 0;
+    margin-left: 0em;
+    -webkit-transform: none;
+    transform: none;   
+  }
 }
